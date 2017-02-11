@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "825862318111",
+    "firebase_url": "https://done-eaa4c.firebaseio.com",
+    "project_id": "done-eaa4c",
+    "storage_bucket": "done-eaa4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825862318111:android:2f47d181541a2837",
+        "android_client_info": {
+          "package_name": "com.avi13smartestgmail.otp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825862318111-kcp94h1ekdvml2uuqdv8lt5p8gcj7uqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLUZs6udt29vgbGcW6dJF__gf2Vsf-DxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825862318111-kcp94h1ekdvml2uuqdv8lt5p8gcj7uqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

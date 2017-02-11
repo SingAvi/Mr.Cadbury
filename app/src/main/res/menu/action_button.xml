@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_contact_phone_black_24dp"
+        android:title="Details"
+        android:id="@+id/det"
+        app:showAsAction="always">
+    </item>
+
+</menu>
