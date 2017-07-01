@@ -42,7 +42,6 @@ import static android.R.id.message;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int MY_PERMISSIONS_REQUEST_SEND_SMS =0 ;
 
     EditText editTextname;
     EditText editTextnumber;
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         buttonSign = (Button) findViewById(R.id.signInBtn);
         tv=(TextView)findViewById(R.id.textViewdat);
 
-        root = FirebaseDatabase.getInstance().getReference();
+
 
 
 //FIREBASE

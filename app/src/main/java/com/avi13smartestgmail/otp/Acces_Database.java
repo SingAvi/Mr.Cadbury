@@ -1,5 +1,6 @@
 package com.avi13smartestgmail.otp;
 
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +28,7 @@ public class Acces_Database extends AppCompatActivity {
     EditText editTextname;
     EditText editTextnumber;
     EditText editTextmail;
+    SwipeRefreshLayout swipeRefreshLayout;
 
     DatabaseReference root;
 
@@ -37,6 +39,17 @@ public class Acces_Database extends AppCompatActivity {
         setContentView(R.layout.activity_acces__database);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+/*       swipeRefreshLayout.setOnRefreshListener(
+               new SwipeRefreshLayout.OnRefreshListener() {
+                   @Override
+                   public void onRefresh() {
+                        DoYourUpdate();
+                   }
+               }
+       );   */
+
 
 
         root = FirebaseDatabase.getInstance().getReference();
@@ -70,6 +83,13 @@ public class Acces_Database extends AppCompatActivity {
         });
 
     }
+
+
+ //   private void DoYourUpdate(){
+//
+  //      swipeRefreshLayout.setRefreshing(false);
+
+//    }
 
 
     private void newChild(DataSnapshot dataSnapshot) {
