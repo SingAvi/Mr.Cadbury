@@ -77,8 +77,20 @@ public class MainActivity extends AppCompatActivity {
 
 
         editTextname = (EditText) findViewById(R.id.name);
+        if (editTextname.equals("")) {
+            Toast.makeText(this, "plz enter your name ", Toast.LENGTH_SHORT).show();
+            return;
+        }
         editTextmail = (EditText)findViewById(R.id.email);
+        if (editTextmail.equals("")) {
+            Toast.makeText(this,"plz enter email-id",Toast.LENGTH_SHORT).show();
+            return;
+        }
         editTextnumber = (EditText) findViewById(R.id.numb);
+        if (editTextnumber.equals("")) {
+            Toast.makeText(this, "plz enter your number ", Toast.LENGTH_SHORT).show();
+            return;
+        }
         buttonSign = (Button) findViewById(R.id.signInBtn);
 
         progressDialog = new ProgressDialog(this);

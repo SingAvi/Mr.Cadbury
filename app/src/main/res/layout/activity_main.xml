@@ -51,39 +51,36 @@
         app:cardCornerRadius="12dp"
         android:id="@+id/reg">
 
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/email"
-            android:paddingStart="20dp"
-            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_email_black_24dp"
-            android:hint=" Email" />
-
-
+            android:hint=" Email"
+            android:layout_marginTop="100sp"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp" />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint=" Name"
-            android:layout_above="@+id/email"
             android:id="@+id/name"
-            android:inputType="text"
-            android:paddingLeft="20dp"
-            android:drawableLeft="@drawable/ic_group_black_24dp"
-            android:layout_marginTop="100sp"/>
-
-
-
-        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=" Your Number"
-            android:drawableLeft="@drawable/ic_call_black_24dp"
-            android:paddingLeft="20dp"
+            android:layout_above="@+id/email"
+            android:drawableLeft="@drawable/ic_group_black_24dp"
+            android:hint=" Name"
+            android:inputType="text"
+            android:paddingLeft="20dp" />
+
+        <EditText
             android:id="@+id/numb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:hint=" Your Number"
             android:inputType="number"
-            android:layout_marginTop="50sp"/>
+            android:paddingLeft="20dp" />
 
     </android.support.v7.widget.CardView>
 
