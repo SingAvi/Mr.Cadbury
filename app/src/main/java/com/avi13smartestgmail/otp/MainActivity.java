@@ -164,6 +164,11 @@ public class MainActivity extends AppCompatActivity {
 
         public void onClicks (){
             //calling register method on click
+   /*         if (TextUtils.isEmpty(editTextmail,editTextnumber,editTextname))
+            {
+                Toast.makeText(this, "Please enter number", Toast.LENGTH_LONG).show();
+                return;
+            } */
             registerUser();
         }
 

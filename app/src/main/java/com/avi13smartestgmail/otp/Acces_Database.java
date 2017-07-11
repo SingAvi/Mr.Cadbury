@@ -99,7 +99,7 @@ public class Acces_Database extends AppCompatActivity {
             em = (String) ((DataSnapshot) i.next()).getValue();
             nm = (String) ((DataSnapshot) i.next()).getValue();
             num = (String) ((DataSnapshot) i.next()).getValue();
-            tv.append(em + "\n" + nm + "\n" + num + "\n\n");
+            tv.append("Name-"+nm + "\n" +"Email-id-" + em + "\n" + "Number" + num + "\n\n");
         }
     }
 
