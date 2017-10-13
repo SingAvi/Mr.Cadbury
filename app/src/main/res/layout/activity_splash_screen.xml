@@ -22,4 +22,31 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/imageView" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mr.Cadbury"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="80dp"
+        android:textColor="#3082ca"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Made with ♥ in India"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:textColor="#716f6f"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:textColor="#716f6f"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>
