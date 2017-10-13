@@ -3,6 +3,7 @@ package com.avi13smartestgmail.otp;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,14 +22,9 @@ import java.util.Map;
 public class Acces_Database extends AppCompatActivity {
 
 
-    Button buttonSign;
-    String temp_key;
+
     TextView tv;
 
-    EditText editTextname;
-    EditText editTextnumber;
-    EditText editTextmail;
-    SwipeRefreshLayout swipeRefreshLayout;
 
     DatabaseReference root;
 
@@ -99,7 +95,7 @@ public class Acces_Database extends AppCompatActivity {
             em = (String) ((DataSnapshot) i.next()).getValue();
             nm = (String) ((DataSnapshot) i.next()).getValue();
             num = (String) ((DataSnapshot) i.next()).getValue();
-            tv.append("Name-"+nm + "\n" +"Email-id-" + em + "\n" + "Number" + num + "\n\n");
+            tv.append("  Name-"+nm + "\n" +"  Email-" + em + "\n" + "  Number-" + num + "\n\n");
         }
     }
 

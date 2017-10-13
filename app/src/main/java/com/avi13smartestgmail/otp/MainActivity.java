@@ -15,6 +15,8 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -64,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
 
         buttonSign = (Button) findViewById(R.id.signInBtn);
         tv=(TextView)findViewById(R.id.textViewdat);
-
+//Anim
+        final Animation animationScale = AnimationUtils.loadAnimation(this,R.anim.scale);
 
 
 
@@ -93,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
         buttonSign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                view.startAnimation(animationScale);
 
                 temp_key=root.push().getKey();
                 DatabaseReference ab=root.child(temp_key);

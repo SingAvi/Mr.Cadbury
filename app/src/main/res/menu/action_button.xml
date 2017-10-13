@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:icon="@drawable/ic_contact_phone_black_24dp"
+        android:icon="@drawable/ic_show"
         android:title="Details"
         android:id="@+id/det"
         app:showAsAction="always">
