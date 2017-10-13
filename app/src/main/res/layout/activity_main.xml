@@ -58,6 +58,7 @@
             android:layout_height="wrap_content"
             android:drawableRight="@drawable/ic_email_black_24dp"
             android:hint=" Email"
+            android:textColorHint="#FF7E47CF"
             android:layout_marginTop="100sp"
             android:inputType="textEmailAddress"
             android:paddingRight="10dp"
@@ -71,6 +72,7 @@
             android:drawableRight="@drawable/ic_group_black_24dp"
             android:hint=" Name"
             android:inputType="text"
+            android:textColorHint="#FF7E47CF"
             android:paddingRight="10dp"
             android:paddingLeft="30dp"  />
 
@@ -79,6 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50sp"
+            android:textColorHint="#FF7E47CF"
             android:drawableRight="@drawable/ic_call_black_24dp"
             android:hint=" Your Number"
             android:inputType="number"
